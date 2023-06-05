@@ -9,6 +9,6 @@
     "md-to-pdf": "^5.2.4"
   },
   "scripts": {
-    "build:pdf": "md-to-pdf docs/${YOUR_RESUME}.md --config-file ./pdf-configs/config.js"
+    "build:pdf": "md-to-pdf docs/README.md --config-file ./pdf-configs/config.js"
   }
 }
