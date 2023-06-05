@@ -1,0 +1,14 @@
+{
+  "name": "kazuaki-ohara",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kz-create/kazuaki-ohara.git",
+  "author": "kz-create <mr.kzak315@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "md-to-pdf": "^5.2.4"
+  },
+  "scripts": {
+    "build:pdf": "md-to-pdf docs/${YOUR_RESUME}.md --config-file ./pdf-configs/config.js",
+  }
+}
