@@ -1,6 +1,3 @@
-# kazuaki-ohara
-大原一晃の職務経歴書
-
 # 基本情報
 
 - **自社開発企業** で働いています
@@ -12,6 +9,8 @@
 
 - [サイト版](https://kz-create.github.io/kazuaki-ohara/)
 - [PDF版](https://github.com/kz-create/kazuaki-ohara/releases)
+- [MarkDown版](https://github.com/kz-create/kazuaki-ohara/blob/main/docs/README.md)
+- [MarkDown版(Raw Code)](https://github.com/kz-create/kazuaki-ohara/blob/main/docs/README.md?plain=1)
 
 # ブログ記事
 #### ※ 所属企業のテックブログに投稿したものを載せております（今後は個人でZennなどに投稿予定）
