@@ -24,6 +24,8 @@ jobs:
           node-version: 22
           cache: pnpm
       - run: pnpm install
+      - name: Install Chrome for Puppeteer
+        run: pnpm exec puppeteer browsers install chrome
       - name: Build pdf
         run: pnpm build:pdf
       - name: Create a draft release
