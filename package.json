@@ -6,7 +6,7 @@
   "author": "kz-create <mr.kzak315@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "md-to-pdf": "^5.2.4"
+    "md-to-pdf": "^5.2.5"
   },
   "scripts": {
     "build:pdf": "md-to-pdf docs/README.md --config-file ./pdf-configs/config.js"

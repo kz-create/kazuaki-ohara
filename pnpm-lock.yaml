@@ -9,7 +9,7 @@ importers:
   .:
     devDependencies:
       md-to-pdf:
-        specifier: ^5.2.4
+        specifier: ^5.2.5
         version: 5.2.5
 
 packages:
