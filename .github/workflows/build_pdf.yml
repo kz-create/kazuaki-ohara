@@ -17,13 +17,15 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: ${{ github.event.pull_request.head.sha }}
+      - name: Enable Corepack
+        run: corepack enable pnpm
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: yarn
-      - run: yarn install
+          cache: pnpm
+      - run: pnpm install
       - name: Build pdf
-        run: yarn build:pdf
+        run: pnpm build:pdf
       - name: Create a draft release
         uses: softprops/action-gh-release@v1
         with:
